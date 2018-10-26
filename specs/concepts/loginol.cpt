@@ -1,0 +1,14 @@
+Created by sahabt on 24.10.2018
+
+This is a concept file with following syntax for each concept.
+# Login Olunur
+* "LOGIN_POPUP_CLOSE" butonuna tıklanır
+* "URUN_KATEGORISI_POPUP_CLOSE" butonuna tıklanır
+* "HESABIM_POPUP_CLOSE" butonuna tıklanır
+* "SEPET_POPUP_CLOSE" butonuna tıklanır
+
+* "USER_ACCOUNT_MENU" butonuna tıklanır
+* "USER_ACCOUNT_LOGIN" butonuna tıklanır
+* "LOGIN_EMAIL" alanına "emirhan558@gmail.com" yazılır
+* "LOGIN_PASSWORD" alanına "emir123456" yazılır
+* "LOGIN_LOGIN_BUTONU" butonuna tıklanır

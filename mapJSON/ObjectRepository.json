@@ -1,0 +1,39 @@
+{
+  "USER_ACCOUNT_MENU": {
+    "id":"com.pozitron.hepsiburada:id/iv_toolbar_user_account_menu"
+  },
+
+  "USER_ACCOUNT_LOGIN": {
+    "id":"com.pozitron.hepsiburada:id/llUserAccountLogin"
+  },
+
+  "LOGIN_EMAIL": {
+    "id":"com.pozitron.hepsiburada:id/etLoginEmail"
+  },
+
+  "LOGIN_PASSWORD": {
+    "id":"com.pozitron.hepsiburada:id/etLoginPassword"
+  },
+
+  "LOGIN_LOGIN_BUTONU": {
+    "id":"com.pozitron.hepsiburada:id/btnLoginLogin"
+  },
+
+  "LOGIN_POPUP_CLOSE": {
+    "id":"com.pozitron.hepsiburada:id/ivLoginClose"
+  },
+
+  "URUN_KATEGORISI_POPUP_CLOSE": {
+    "id":"com.pozitron.hepsiburada:id/ariv_quick_link_two_banners_first"
+  },
+
+  "HESABIM_POPUP_CLOSE": {
+    "id":"com.pozitron.hepsiburada:id/ariv_quick_link_two_banners_first"
+  },
+
+  "SEPET_POPUP_CLOSE": {
+    "id":"com.pozitron.hepsiburada:id/ariv_quick_link_two_banners_first"
+  }
+
+
+}

@@ -1,0 +1,96 @@
+13:57:24.850 Watching directory: /Users/sahabt/Documents/MavenDev/gauge_mobile/specs
+13:57:24.851 Found 2 files
+13:57:24.851 Watching directory: /Users/sahabt/Documents/MavenDev/gauge_mobile/specs/concepts
+13:57:24.851 Found 1 files
+13:57:24.856 Initializing concepts cache with 1 concepts
+13:57:24.856 Adding concepts from /Users/sahabt/Documents/MavenDev/gauge_mobile/specs/concepts/loginol.cpt
+13:57:24.857 Initializing specs cache with 1 specs
+13:57:24.857 Adding specs from /Users/sahabt/Documents/MavenDev/gauge_mobile/specs/example.spec
+13:57:24.857 Initializing steps cache with 2 steps
+13:57:24.858 Gauge daemon initialized and listening on port: 55767
+19:11:04.658 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<by> popup\304\261 ekranda g\303\266r\303\274l\303\274rse kapat\304\261l\304\261r" > 
+19:11:04.663 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} popup\304\261 ekranda g\303\266r\303\274l\303\274rse kapat\304\261l\304\261r" parameterizedStepValue:"<by> popup\304\261 ekranda g\303\266r\303\274l\303\274rse kapat\304\261l\304\261r" parameters:"by" > > 
+19:48:01.893 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"SEPET_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:01.898 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <SEPET_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"SEPET_POPUP_CLOSE" > > 
+19:48:01.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"USER_ACCOUNT_LOGIN\" butonuna t\304\261klan\304\261r" > 
+19:48:01.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <USER_ACCOUNT_LOGIN> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_LOGIN" > > 
+19:48:01.906 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_PASSWORD\" alan\304\261na \"emir123456\" yaz\304\261l\304\261r" > 
+19:48:01.908 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"* <LOGIN_PASSWORD> alan\304\261na <emir123456> yaz\304\261l\304\261r" parameters:"LOGIN_PASSWORD" parameters:"emir123456" > > 
+19:48:01.909 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_LOGIN_BUTONU\" butonuna t\304\261klan\304\261r" > 
+19:48:01.910 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <LOGIN_LOGIN_BUTONU> butonuna t\304\261klan\304\261r" parameters:"LOGIN_LOGIN_BUTONU" > > 
+19:48:01.911 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"URUN_KATEGORISI_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:01.911 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <URUN_KATEGORISI_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"URUN_KATEGORISI_POPUP_CLOSE" > > 
+19:48:01.913 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"HESABIM_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:01.913 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <HESABIM_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"HESABIM_POPUP_CLOSE" > > 
+19:48:01.914 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"USER_ACCOUNT_MENU\" butonuna t\304\261klan\304\261r" > 
+19:48:01.914 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <USER_ACCOUNT_MENU> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_MENU" > > 
+19:48:01.916 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_EMAIL\" alan\304\261na \"emirhan558@gmail.com\" yaz\304\261l\304\261r" > 
+19:48:01.917 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"* <LOGIN_EMAIL> alan\304\261na <emirhan558@gmail.com> yaz\304\261l\304\261r" parameters:"LOGIN_EMAIL" parameters:"emirhan558@gmail.com" > > 
+19:48:01.918 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:01.919 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <LOGIN_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"LOGIN_POPUP_CLOSE" > > 
+19:48:03.559 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:03.560 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<LOGIN_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"LOGIN_POPUP_CLOSE" > > 
+19:48:03.575 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"URUN_KATEGORISI_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:03.575 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<URUN_KATEGORISI_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"URUN_KATEGORISI_POPUP_CLOSE" > > 
+19:48:03.577 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"HESABIM_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:03.577 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<HESABIM_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"HESABIM_POPUP_CLOSE" > > 
+19:48:03.584 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_LOGIN_BUTONU\" butonuna t\304\261klan\304\261r" > 
+19:48:03.584 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<LOGIN_LOGIN_BUTONU> butonuna t\304\261klan\304\261r" parameters:"LOGIN_LOGIN_BUTONU" > > 
+19:48:03.585 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"SEPET_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+19:48:03.585 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<SEPET_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"SEPET_POPUP_CLOSE" > > 
+19:48:03.587 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"USER_ACCOUNT_MENU\" butonuna t\304\261klan\304\261r" > 
+19:48:03.589 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<USER_ACCOUNT_MENU> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_MENU" > > 
+19:48:03.595 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"USER_ACCOUNT_LOGIN\" butonuna t\304\261klan\304\261r" > 
+19:48:03.598 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<USER_ACCOUNT_LOGIN> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_LOGIN" > > 
+19:48:03.607 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_EMAIL\" alan\304\261na \"emirhan558@gmail.com\" yaz\304\261l\304\261r" > 
+19:48:03.608 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"<LOGIN_EMAIL> alan\304\261na <emirhan558@gmail.com> yaz\304\261l\304\261r" parameters:"LOGIN_EMAIL" parameters:"emirhan558@gmail.com" > > 
+19:48:03.616 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_PASSWORD\" alan\304\261na \"emir123456\" yaz\304\261l\304\261r" > 
+19:48:03.617 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"<LOGIN_PASSWORD> alan\304\261na <emir123456> yaz\304\261l\304\261r" parameters:"LOGIN_PASSWORD" parameters:"emir123456" > > 
+08:46:28.281 Watching directory: /Users/sahabt/Documents/MavenDev/gauge_mobile/specs
+08:46:28.281 Found 2 files
+08:46:28.281 Watching directory: /Users/sahabt/Documents/MavenDev/gauge_mobile/specs/concepts
+08:46:28.281 Found 1 files
+08:46:28.287 Initializing concepts cache with 1 concepts
+08:46:28.287 Adding concepts from /Users/sahabt/Documents/MavenDev/gauge_mobile/specs/concepts/loginol.cpt
+08:46:28.289 Initializing specs cache with 1 specs
+08:46:28.289 Adding specs from /Users/sahabt/Documents/MavenDev/gauge_mobile/specs/example.spec
+08:46:28.289 Initializing steps cache with 2 steps
+08:46:28.289 Gauge daemon initialized and listening on port: 51309
+08:46:32.997 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<by> popup\304\261 ekranda g\303\266r\303\274l\303\274rse kapat\304\261l\304\261r" > 
+08:46:32.998 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} popup\304\261 ekranda g\303\266r\303\274l\303\274rse kapat\304\261l\304\261r" parameterizedStepValue:"<by> popup\304\261 ekranda g\303\266r\303\274l\303\274rse kapat\304\261l\304\261r" parameters:"by" > > 
+09:00:00.501 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:00:00.502 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<LOGIN_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"LOGIN_POPUP_CLOSE" > > 
+09:00:00.536 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_LOGIN_BUTONU\" butonuna t\304\261klan\304\261r" > 
+09:00:00.537 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<LOGIN_LOGIN_BUTONU> butonuna t\304\261klan\304\261r" parameters:"LOGIN_LOGIN_BUTONU" > > 
+09:00:00.562 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"URUN_KATEGORISI_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:00:00.563 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<URUN_KATEGORISI_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"URUN_KATEGORISI_POPUP_CLOSE" > > 
+09:00:00.572 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"HESABIM_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:00:00.572 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<HESABIM_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"HESABIM_POPUP_CLOSE" > > 
+09:00:00.574 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"SEPET_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:00:00.574 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<SEPET_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"SEPET_POPUP_CLOSE" > > 
+09:00:00.582 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"USER_ACCOUNT_MENU\" butonuna t\304\261klan\304\261r" > 
+09:00:00.583 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<USER_ACCOUNT_MENU> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_MENU" > > 
+09:00:00.589 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"USER_ACCOUNT_LOGIN\" butonuna t\304\261klan\304\261r" > 
+09:00:00.590 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} butonuna t\304\261klan\304\261r" parameterizedStepValue:"<USER_ACCOUNT_LOGIN> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_LOGIN" > > 
+09:00:00.596 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_EMAIL\" alan\304\261na \"emirhan558@gmail.com\" yaz\304\261l\304\261r" > 
+09:00:00.596 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"<LOGIN_EMAIL> alan\304\261na <emirhan558@gmail.com> yaz\304\261l\304\261r" parameters:"LOGIN_EMAIL" parameters:"emirhan558@gmail.com" > > 
+09:00:00.609 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"LOGIN_PASSWORD\" alan\304\261na \"emir123456\" yaz\304\261l\304\261r" > 
+09:00:00.609 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"<LOGIN_PASSWORD> alan\304\261na <emir123456> yaz\304\261l\304\261r" parameters:"LOGIN_PASSWORD" parameters:"emir123456" > > 
+09:42:00.645 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"SEPET_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:42:00.646 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <SEPET_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"SEPET_POPUP_CLOSE" > > 
+09:42:00.650 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"USER_ACCOUNT_LOGIN\" butonuna t\304\261klan\304\261r" > 
+09:42:00.650 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <USER_ACCOUNT_LOGIN> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_LOGIN" > > 
+09:42:00.651 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_PASSWORD\" alan\304\261na \"emir123456\" yaz\304\261l\304\261r" > 
+09:42:00.651 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"* <LOGIN_PASSWORD> alan\304\261na <emir123456> yaz\304\261l\304\261r" parameters:"LOGIN_PASSWORD" parameters:"emir123456" > > 
+09:42:00.652 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_LOGIN_BUTONU\" butonuna t\304\261klan\304\261r" > 
+09:42:00.652 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <LOGIN_LOGIN_BUTONU> butonuna t\304\261klan\304\261r" parameters:"LOGIN_LOGIN_BUTONU" > > 
+09:42:00.653 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"URUN_KATEGORISI_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:42:00.653 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <URUN_KATEGORISI_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"URUN_KATEGORISI_POPUP_CLOSE" > > 
+09:42:00.654 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"HESABIM_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:42:00.654 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <HESABIM_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"HESABIM_POPUP_CLOSE" > > 
+09:42:00.654 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"USER_ACCOUNT_MENU\" butonuna t\304\261klan\304\261r" > 
+09:42:00.655 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <USER_ACCOUNT_MENU> butonuna t\304\261klan\304\261r" parameters:"USER_ACCOUNT_MENU" > > 
+09:42:00.656 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_EMAIL\" alan\304\261na \"emirhan558@gmail.com\" yaz\304\261l\304\261r" > 
+09:42:00.656 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} alan\304\261na {} yaz\304\261l\304\261r" parameterizedStepValue:"* <LOGIN_EMAIL> alan\304\261na <emirhan558@gmail.com> yaz\304\261l\304\261r" parameters:"LOGIN_EMAIL" parameters:"emirhan558@gmail.com" > > 
+09:42:00.657 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* \"LOGIN_POPUP_CLOSE\" butonuna t\304\261klan\304\261r" > 
+09:42:00.658 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* {} butonuna t\304\261klan\304\261r" parameterizedStepValue:"* <LOGIN_POPUP_CLOSE> butonuna t\304\261klan\304\261r" parameters:"LOGIN_POPUP_CLOSE" > > 
