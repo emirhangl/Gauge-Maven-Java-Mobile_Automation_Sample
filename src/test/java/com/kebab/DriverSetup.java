@@ -1,6 +1,8 @@
 package com.kebab;
 
+import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.AfterSuite;
+import com.thoughtworks.gauge.BeforeScenario;
 import com.thoughtworks.gauge.BeforeSuite;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -17,12 +19,13 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 public class DriverSetup {
-    protected AppiumDriver<MobileElement> driver;
-    public static WebDriverWait wait;
+    public static AppiumDriver<MobileElement> driver;
+    public static DesiredCapabilities capabilities;
+    public static final String APPPACKAGE = "com.pozitron.hepsiburada";
+    public static final String APPACTIVITY = "com.hepsiburada.ui.startup.SplashActivity";
 
-
-    @BeforeSuite
-    public void setup() throws IOException {
+        @BeforeScenario
+        public void setup () throws IOException {
 //        DesiredCapabilities capabilities = new DesiredCapabilities();
 //        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
 //        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "ASUS_Z00AD");
@@ -37,29 +40,28 @@ public class DriverSetup {
 //        // driver = (AndroidDriver<MobileElement>) new RemoteWebDriver( new URL("http://192.168.60.134:4444/wd/hub"), capabilities);
 //        driver = new  AndroidDriver<MobileElement> (new URL("http://0.0.0.0:5000/wd/hub"), capabilities);
 
-        //EMULATOR
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 6 API 27");
-        capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("udid", "emulator-5554");
-        capabilities.setCapability("appPackage", "com.pozitron.hepsiburada");
-        capabilities.setCapability("appActivity", "com.hepsiburada.ui.startup.SplashActivity");
-        capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
-        capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
-        capabilities.setCapability("noReset", false);
-        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
+            //EMULATOR
+            capabilities = new DesiredCapabilities();
+            capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 6 API 27");
+            capabilities.setCapability("platformName", "Android");
+            capabilities.setCapability("VERSION", "8.1.0");
+            capabilities.setCapability("udid", "emulator-5554");
+            capabilities.setCapability("appPackage", APPPACKAGE);
+            capabilities.setCapability("appActivity", APPACTIVITY);
+            capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 
-        driver = new  AndroidDriver<MobileElement> (new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver,10);
+            driver = new AndroidDriver<>(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-    }
 
-    @AfterSuite
-    public void tearDown() {
-        if(driver != null) {
-            driver.quit();
         }
-    }
+
+        @AfterScenario
+        public void tearDown () {
+            if (driver != null) {
+                driver.quit();
+            }
+        }
+
 }

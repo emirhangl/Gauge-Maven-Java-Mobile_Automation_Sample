@@ -24,15 +24,43 @@
   },
 
   "URUN_KATEGORISI_POPUP_CLOSE": {
-    "id":"com.pozitron.hepsiburada:id/ariv_quick_link_two_banners_first"
+    "id":"com.pozitron.hepsiburada:id/ariv_home_featured_banner"
   },
 
   "HESABIM_POPUP_CLOSE": {
-    "id":"com.pozitron.hepsiburada:id/ariv_quick_link_two_banners_first"
+    "id":"com.pozitron.hepsiburada:id/ariv_home_featured_banner"
   },
 
   "SEPET_POPUP_CLOSE": {
-    "id":"com.pozitron.hepsiburada:id/ariv_quick_link_two_banners_first"
+    "id":"com.pozitron.hepsiburada:id/ariv_home_featured_banner"
+  },
+
+  "HOSGELDINIZ_TAMAM_BUTONU": {
+    "id":"android:id/button1"
+  },
+
+  "KULLANICI_HESABI_KAPAT_BUTONU": {
+    "id":"com.pozitron.hepsiburada:id/btnUserAccountClose"
+  },
+
+  "ANASAYFA_ARAMA_ALANI": {
+    "accessibilityid":"arama"
+  },
+
+  "ARAMA_TEXTBOX": {
+    "id":"com.pozitron.hepsiburada:id/etACBSearchBox"
+  },
+
+  "ARAMA_SONUCU_MACBOOK_ONERISI": {
+    "xpath":"//android.widget.TextView[@text='macbook']"
+  },
+
+  "SEPETE_EKLE_BUTONU": {
+    "accessibilityid":"Sepete Ekle"
+  },
+
+  "SEPETIM_BUTONU": {
+    "id":"com.pozitron.hepsiburada:id/fl_common_cart"
   }
 
 

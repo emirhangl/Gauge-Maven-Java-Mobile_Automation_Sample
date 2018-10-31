@@ -3,6 +3,7 @@ package mapping;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import io.appium.java_client.MobileBy;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
@@ -45,7 +46,7 @@ public class Mapper2 {
         for (Map.Entry<String, JsonElement> entry : entries) {
             if(!(entry.getKey().equals("X")) & !(entry.getKey().equals("Y"))) {
                 by = generateByElement(entry.getKey().toLowerCase(), entry.getValue().getAsString());
-                System.out.println("Element Key:"+entry.getKey());
+                System.out.println("Element Key:"+entry.getKey().toLowerCase());
                 System.out.println("Element Value:"+entry.getValue().getAsString());
                 System.out.println("by: "+by);
             }
@@ -59,8 +60,6 @@ public class Mapper2 {
         {
             case "id":
                 return By.id(byValue);
-            case  "cssselector":
-                return By.cssSelector(byValue);
             case "xpath":
                 return By.xpath(byValue);
             case "classname":
@@ -69,6 +68,8 @@ public class Mapper2 {
                 return  By.linkText(byValue);
             case "name":
                 return By.name(byValue);
+            case "accessibilityid":
+                return new MobileBy.ByAccessibilityId(byValue);
             default:
                 return null;
         }

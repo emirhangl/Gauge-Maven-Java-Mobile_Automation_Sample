@@ -1,20 +1,20 @@
 import com.kebab.DriverSetup;
+
 import com.thoughtworks.gauge.Step;
-import io.appium.java_client.MobileElement;
 import mapping.Mapper2;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
-import java.util.Random;
 
 
 
 public class StepImplementation extends DriverSetup {
     Mapper2 mapper2 = new Mapper2();
+    WebDriverWait wait = new WebDriverWait(driver, 60);
+
 
     @Step("<Saniye> Saniyesi kadar bekle")
     public void waitSeconds(int seconds) {
@@ -27,19 +27,7 @@ public class StepImplementation extends DriverSetup {
 
     @Step("<by> butonuna tıklanır")
     public void clickElement(String by) {
-        wait.until(ExpectedConditions.elementToBeClickable(mapper2.getElementFromJSON(by)));
-        driver.findElement(mapper2.getElementFromJSON(by)).click();
-//        MobileElement element = driver.findElement(mapper.getElementFromJson(by));
-//        element.click();
-//        wait.until(ExpectedConditions.elementToBeClickable(mapper.getElementFromJson(by))).click();
-    }
-
-    @Step("<by> popupı ekranda görülürse kapatılır")
-    public void closePopupIfThereIs(String by){
-        waitSeconds(1);
-        if(driver.findElement(mapper2.getElementFromJSON(by)).isDisplayed()){
-            driver.findElement(mapper2.getElementFromJSON(by)).click();
-        }
+        wait.until(ExpectedConditions.presenceOfElementLocated(mapper2.getElementFromJSON(by))).click();
     }
 
     @Step("<by> alanına <text> yazılır")
@@ -73,15 +61,6 @@ public class StepImplementation extends DriverSetup {
     @Step("Klavyeden ENTER tuşuna basılır")
     public void pressENTER() {
         driver.findElement(By.tagName("body")).sendKeys(Keys.ENTER);
-    }
-
-    @Step("<byList> listesinden rastgele bir elemana tıklanır")
-    public void clickRandomElementFromByList(String byList) {
-        List<MobileElement> elements = driver.findElements(mapper2.getElementFromJSON(byList));
-        Random rnd = new Random();
-        int randomNumber = rnd.nextInt(elements.size() + 1);
-        WebElement element = elements.get(randomNumber);
-        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 
 
